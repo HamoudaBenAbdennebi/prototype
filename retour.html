@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <p>c</p>
+    <form action="./retour.php" method="post" onsubmit="return verif2()">
+        <fieldset>
+            <legend>Retour d'une voiture</legend>
+            <label for="n">numero d'imatriculation</label>
+            <input type="text" name="n" id="n">
+            <label for="TU">TU</label>
+            <input type="text" name="TU" id="TU">
+            <input type="submit" value="Valider">
+            <input type="reset" value="Annuler">
+        </fieldset>
+    </form>
+    <script src="./test.js"></script>
 </body>
 </html>
